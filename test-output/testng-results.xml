@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15007" started-at="2018-12-21T15:43:09Z" finished-at="2018-12-21T15:43:24Z">
+  <suite name="Suite" duration-ms="28077" started-at="2018-12-26T03:53:15Z" finished-at="2018-12-26T03:53:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15007" started-at="2018-12-21T15:43:09Z" finished-at="2018-12-21T15:43:24Z">
+    <test name="Test" duration-ms="28077" started-at="2018-12-26T03:53:15Z" finished-at="2018-12-26T03:53:43Z">
       <class name="Socialmedia.FB1">
-        <test-method status="PASS" signature="face()[pri:0, instance:Socialmedia.FB1@523884b2]" name="face" duration-ms="14969" started-at="2018-12-21T21:13:09Z" finished-at="2018-12-21T21:13:24Z">
+        <test-method status="PASS" signature="face()[pri:0, instance:Socialmedia.FB1@548e7350]" name="face" duration-ms="14420" started-at="2018-12-26T03:53:29Z" finished-at="2018-12-26T03:53:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- face -->
       </class> <!-- Socialmedia.FB1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Mailling.GM1">
+        <test-method status="PASS" signature="gm()[pri:0, instance:Mailling.GM1@5442a311]" name="gm" duration-ms="13602" started-at="2018-12-26T03:53:15Z" finished-at="2018-12-26T03:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gm -->
+      </class> <!-- Mailling.GM1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
